@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+.X {
+  color: red;
+}
+
+.O {
+  color: #00f;
+}
+
+#game-grid {
+  grid-gap: 10px;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px;
+  justify-content: center;
+  margin: 3px;
+  font: 85px arial, sans-serif;
+  display: grid;
+}
+
+#game-grid > button {
+  text-align: center;
+  font-family: inherit;
+  font-size: 100%;
+}
+/*# sourceMappingURL=index.4d663569.css.map */
